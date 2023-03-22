@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nav {
     height: 25vh;
     width: 100vw;
@@ -7,4 +8,34 @@
 
 .logo {
     width: 200px;
+=======
+*{
+    margin: 0;
+}
+nav{  margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 25vh;
+}
+#logo{
+    width: 200px;
+    height: 120px;
+}
+.mont{
+    margin-top: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.indirizzi{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+li{
+    list-style: none;
+>>>>>>> 885da1522ce15a01bb10e74388ff7328e99a8a72
 }
