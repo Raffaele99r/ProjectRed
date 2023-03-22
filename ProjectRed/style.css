@@ -6,22 +6,23 @@
 }
 
 nav{  
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100vw;
+
 }
 #logo{
     width: 200px;
     height: 120px;
 }
 .mont{
-    width: 100vw;
+
     display: flex;
     justify-content: center;
 }
 
 .indirizzi{
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: space-evenly;
 
@@ -31,9 +32,16 @@ li{
 }
 
 .sfondo {
-    background-image: url(img/switzerland-862870_1920.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(
+        rgba( 255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+        ),
+         url(img/switzerland-862870_1920.jpg),
+         url(img/mountains.png);
+         background-size: cover;
+         background-position:center;
+        
+         
 }
 
 h1 {
