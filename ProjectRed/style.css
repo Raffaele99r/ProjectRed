@@ -15,7 +15,7 @@ nav{
     width: 250px;
     height: 120px;
 }
-.mont{ ;
+.mont{ 
 
     display: flex;
     justify-content: center;
@@ -32,7 +32,6 @@ li{
 }
 
 .sfondo {
-    position: relative;
     
     background-image: url(img/mountains.png),
     linear-gradient(
@@ -42,7 +41,7 @@ li{
         url(img/switzerland-862870_1920.jpg);
         background-position:center, center;
         background-size: cover, cover;
-    }
+}
 
         
            
