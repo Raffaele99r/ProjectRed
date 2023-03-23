@@ -32,20 +32,28 @@ li{
 }
 
 .sfondo {
-    background-image: linear-gradient(
+    position: relative;
+    
+    background-image: url(img/mountains.png),
+    linear-gradient(
         rgba( 255, 255, 255, 1),
         rgba(255, 255, 255, 0)
         ),
-         url(img/switzerland-862870_1920.jpg),
-         url(img/mountains.png);
-         background-size: cover;
-         background-position:center;
+        url(img/switzerland-862870_1920.jpg);
+        background-position:bottom, center;
+        background-size: cover, cover;
+    }
+
+        
+           
         
          
-}
 
 h1 {
     font-size: 80px;
     letter-spacing: 50px;
     color: darkred;
 }
+
+
+
