@@ -33,7 +33,7 @@ li{
 
 .sfondo {
     
-    background-image: url(img/mountains.png),
+    background-image: url(img/mountains2.png),
     linear-gradient(
         rgba( 255, 255, 255, 1),
         rgba(255, 255, 255, 0)
@@ -57,23 +57,35 @@ h1 {
 .paragrafo {
     text-align: center;
     font-style: italic;
-    font-size: xx-large;
+    font-size: 20px;
     color: gray;
 }
     
 .paragrafo:before{
-       content: "\201C";
-       color: darkred;
-       width: 80px;
-    
+    content: "\201C";
+    color: darkred;
+    width: 30px;
+    font-size: 35px;
 }
     
-.paragrafo::after{
-        content: "\201E";
-        color: darkred;
-        font-weight: 200;
-     
+.paragrafo:after{
+    content: "\201E";
+    color: darkred;
+    /* font-weight: 200; */
+    font-size: 35px;
 }
 
+.colore {
+    background-color: rgba(236,236,236,255);
+}
 
+.contenitore {
+    display: flex;
+    justify-content: space-evenly;    
+}
 
+.icona {
+    color: darkred;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
