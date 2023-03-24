@@ -54,5 +54,26 @@ h1 {
     color: darkred;
 }
 
+.paragrafo {
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    color: gray;
+}
+    
+.paragrafo:before{
+       content: "\201C";
+       color: darkred;
+       width: 80px;
+    
+}
+    
+.paragrafo::after{
+        content: "\201E";
+        color: darkred;
+        font-weight: 200;
+     
+}
+
 
 
