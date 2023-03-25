@@ -36,14 +36,17 @@ li{
     padding-right: 20px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 .sfondo {
-    
     background-image: url(img/mountains2.png),
     linear-gradient(
         rgba( 255, 255, 255, 1),
         rgba(255, 255, 255, 0)
-        ),
-        url(img/switzerland-862870_1920.jpg);
+        ), url(img/switzerland-862870_1920.jpg);
         background-position:center, center;
         background-size: cover, cover;
 }
@@ -52,9 +55,10 @@ li{
 
 h1 {
     font-size: 80px;
-    letter-spacing: 70px;
-    padding-left: 10px;
+    letter-spacing: 0.6em;
+    text-indent: 0.3em;
     color: darkred;
+    text-align: center;
 }
 
 .paragrafo {
@@ -74,7 +78,6 @@ h1 {
 .paragrafo:after{
     content: "\201E";
     color: darkred;
-    /* font-weight: 200; */
     font-size: 35px;
 }
 
@@ -89,39 +92,32 @@ h1 {
 
 .icona {
     color: darkred;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 15px;
+}
+
+.scrittina {
+    font-size: small;
 }
 
 .barra {
     height: 5px;
     width: 200px;
     background-color: darkred;
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .cerchio{
-    
-    
     width: 25px;
     height: 25px;
     background-color: white;
     border: 4px solid darkred;
     border-radius: 50%;
     z-index: 1;
-    
 }
 
-
-@media screen and (max-width: 480px){
-    h1{
-        letter-spacing: 18px;
-    }
-}
 /* 
 @media screen and (min-width: 481px) and (max-width: 900){
     h1{
@@ -141,21 +137,20 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
-    padding-top: 10%;
+    height: 100vh;
 }
 
 .ciao {
-    width: 40%;
+    width: 50%;
 }
 
 .bottone {
-    /* font-size: small; */
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: none;
     background-color: darkred;
     color: white;
-    width: 27vh;
-    height: 6vh;
+    width: 35vh;
+    height: 9vh;
 }
 
 h3 {
@@ -165,3 +160,71 @@ h3 {
 .des {
     color: gray;
 }
+
+.timeline {
+    height: 115vh;
+    background-image: url(img/single.png);
+    background-size: 35rem;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.titoletto {
+    color: darkred;
+}
+
+.relativo {
+    position: relative;
+}
+
+.barra-verticale {
+    height: 9rem;
+    width: 0.3rem;
+    background-color: darkred;
+    position: absolute;
+    left: 0.4rem;
+    top: 1.2rem;
+}
+
+.spostamento {
+    position: absolute;
+    left: 5.3rem;
+}
+
+.altezza {
+    height: 9rem;
+}
+
+.speciale {
+    height: 6rem;
+}
+
+.team {
+    height: 100vh;
+    background-color: rgba(236,236,236,255);
+    padding-top: 10rem;
+}
+
+@media screen and (max-width: 480px){
+    h1{
+        letter-spacing: 1.2rem;
+    }
+
+    .bottone {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 720px){
+    .ciaone {
+       font-size: 10px; 
+    }
+    .des {
+        font-size: 0.8rem;
+    }
+    .scrittina {
+        font-size: 10px;
+    }
+}
+
