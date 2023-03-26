@@ -174,6 +174,7 @@ h3 {
 
 .titoletto {
     color: darkred;
+
 }
 
 .relativo {
@@ -203,9 +204,8 @@ h3 {
 }
 
 .team {
-    height: 100vh;
     background-color: rgba(236,236,236,255);
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 
 @media screen and (max-width: 480px){
@@ -230,4 +230,40 @@ h3 {
         font-size: 10px;
     }
 }
+.bordo{
+    width: 200px;
+    height: 200px;
+    border: 5px solid darkred;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fog{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%; 
+    background-image: url(img/fog.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+h4{
+    padding-top: 25px;
+    color: darkred;
+    text-align: center;
+}
+
+.social{
+    color: darkred;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+
+
+
+}
+
+
 
