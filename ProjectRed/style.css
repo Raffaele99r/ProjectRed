@@ -98,11 +98,12 @@ h1 {
 
 .scrittina {
     font-size: small;
+   
 }
 
 .barra {
     height: 5px;
-    width: 200px;
+    width: 180px;
     background-color: darkred;
     display: flex;
     justify-content: center;
@@ -118,7 +119,7 @@ h1 {
     z-index: 1;
 }
 
-/* 
+
 @media screen and (min-width: 481px) and (max-width: 900){
     h1{
         letter-spacing:40px;
@@ -129,7 +130,7 @@ h1 {
     h1{
         letter-spacing: 70px;
     }
-} */
+}
 
 
 .sezioncina {
@@ -138,19 +139,21 @@ h1 {
     background-repeat: no-repeat;
     background-position: bottom;
     height: 100vh;
+    padding-top: 150px;
 }
 
 .ciao {
-    width: 50%;
+    width: 40%;
 }
+
 
 .bottone {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: none;
     background-color: darkred;
     color: white;
-    width: 35vh;
-    height: 9vh;
+    width: 300px;
+    height: 60px;
 }
 
 h3 {
@@ -164,7 +167,7 @@ h3 {
 .timeline {
     height: 115vh;
     background-image: url(img/single.png);
-    background-size: 35rem;
+    background-size: 50%;
     background-position: bottom right;
     background-repeat: no-repeat;
 }
