@@ -30,7 +30,7 @@ nav{
     
 }
 
-li{
+.lista{
     margin: 0;
     list-style: none;
     padding-right: 20px;
@@ -203,34 +203,6 @@ h3 {
     padding-top: 8rem;
 }
 
-@media screen and (max-width: 480px){
-    h1{
-        letter-spacing: 1.2rem;
-    }
-    
-
-}
-
-@media screen and (max-width: 720px){
-    .ciaone {
-        font-size: 10px; 
-    }
-    .des {
-        font-size: 10px;
-    }
-    .scrittina {
-        font-size: 10px;
-    }
-    .bottone {
-        height: 30px;
-        width: 150px;
-        font-size: 10px;
-    }
-    .ciao {
-        width: 100%;
-    }
-}
-
 .bordo{
     width: 170px;
     height: 170px;
@@ -264,18 +236,18 @@ h4{
 }
 
 .bordo1{
-    width: 230px;
-    height: 230px;
+    width: 280px;
+    height: 280px;
     border: 4px solid darkred;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 .fog1{
-    width: 200px;
-    height: 200px;
+    width: 255px;
+    height: 255px;
     border-radius: 50%; 
     background-image: url(img/fog.jpg);
     background-position: center;
@@ -283,17 +255,72 @@ h4{
 }
 
 .forestarossa{
-    height: 125vh;
+    height: 60vh;
     background-image: url(./img/other.png);
-    background-size: contain;
+    background-size: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
-}
-.titoletto1{
-    color: darkred;
-    padding-left: 40px;
+    background-color: rgba(236,236,236,255);
 }
 
-.benefit1 {
-    padding-left: 40px;
+.titoletto2{
+    color: darkred;
+}
+
+.footer {
+    background-color: darkred;
+    
+}
+
+.des1{
+    color: white;
+}
+
+.titolettino {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 720px){
+    .ciaone {
+        font-size: 10px; 
+    }
+    .des {
+        font-size: 10px;
+    }
+    .scrittina {
+        font-size: 10px;
+    }
+    .bottone {
+        height: 30px;
+        width: 150px;
+        font-size: 10px;
+    }
+    .ciao {
+        width: 100%;
+    }
+    .forestarossa{
+        height: 40vh;
+    }
+    .hola,.titolettino{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    h1{
+        letter-spacing: 1.2rem;
+    }
+    .bordo1{
+        width: 200px;
+        height: 200px;
+    }
+    .fog1{
+        width: 175px;
+        height: 175px;
+    }
+    .forestarossa {
+        height: 20vh;
+    }
 }
